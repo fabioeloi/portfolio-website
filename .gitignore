@@ -1,0 +1,33 @@
+# Ignore all files by default
+*
+
+# Allow specific portfolio website files
+!index.html
+!css/
+!js/
+!.jshintrc
+!comprehensive_portfolio_plan.md
+!KILO_CODE_PROCESS.md
+!optimization_report.md
+!README.md
+!README-PORTFOLIO.md
+
+# Allow CSS and JS files
+!css/*.css
+!js/*.js
+
+# Ignore unnecessary files
+.DS_Store
+*.zip
+*.csv
+*.rtf
+*.txt
+*.py
+*.sh
+*.sql
+*.yml
+*.log
+docker-logs.txt
+init-scripts/
+csv_data/
+README-SES.md
